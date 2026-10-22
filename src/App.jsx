@@ -73,7 +73,7 @@ const T = {
     c2:"!chapter", c2d:"Check current chapter progress and next chapter conditions",
     c3:"!debug", c3d:"Fix image output errors",
     c4:"!map", c4d:"Display the continent map",
-    ctaT:"Begin Your Story", ctaB:"Enter the Story", ctaN:"URL coming soon",
+    ctaT:"Begin Your Story", ctaB:"Enter the Story", ctaN:"",
     credit:"Original work by 강희자매 «The Dragon King's Bride»",
     per:"Personality", tone:"Tone",
   },
@@ -347,7 +347,7 @@ function STitle({ sub, main }) {
    언어 선택 화면
    ═══════════════════════════════════════════ */
 /* ▼ 영어 버전 입장 링크: 따옴표 안에 주소를 넣으면 '입장' 버튼이 그 주소로 연결됩니다 */
-const ENTRY_URL = "";
+const ENTRY_URL = "https://imyn.ai/contents/58547bb6-eacb-4949-bdc8-55a8c049d186";
 
 function LangSelect({ onPick }) {
   const [show, setShow] = useState(false);
